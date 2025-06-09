@@ -19,3 +19,25 @@ content: |+
 showEditor: true
 editors:
   - course1/unit1/lesson1/lessonpart1/conway.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on how 2D lists, loops, and functions can be used together to
+          define and display a grid in the terminal. How do these concepts
+          contribute to the initial setup of Conway's Game of Life, and what
+          challenges might arise when manually changing cells to '1' to see a
+          pattern?
+  - id: "2"
+    questions:
+      - id: "1"
+        type: string
+        content: What is the purpose of using 2D lists in defining and displaying a grid
+          in the terminal?
+        options:
+          - id: "1"
+            value: structure
+            explanation: 2D lists provide a structured way to represent the grid in the
+              terminal.
+            isCorrect: true
