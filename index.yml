@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: course1
+title: Conway's Game of Life (ASCII Edition)
+level: beginner
+description: Learn how to simulate Conway’s Game of Life - a classic example of
+  emergent behavior from simple rules - using Python and ASCII graphics in the
+  terminal. This step-by-step tutorial introduces 2D lists, neighbor counting,
+  game logic, and simple animation, making it a fun and visual way to practice
+  core Python skills.
+cardImageUrl: https://vscodeedu.com/assets/course-cards/card6.png
+contacts:
+  - displayName: Eric Anderson
+    pictureUrl: https://avatars.githubusercontent.com/u/2167515?v=4
+    homePageUrl: https://github.com/humanapp
+units:
+  - id: unit1
+    title: Unit 1
+    lessons:
+      - id: lesson1
+        title: Lesson 1
+        lessonParts:
+          - id: lessonpart1
+            title: Page 1
