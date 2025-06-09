@@ -7,8 +7,12 @@ content: |+
   **Concepts introduced:**
 
   * If/else branching
+
   * Game logic
+
   * Cloning grids
+
+  *Challenge:* Modify the rules and observe different behaviors.
 
 showEditor: true
 editors:

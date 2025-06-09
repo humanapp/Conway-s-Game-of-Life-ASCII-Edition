@@ -1,14 +1,24 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Updating Cells
-content: |+
+content: >+
   **Goal:** Count live neighbors of a cell.
+
 
   **Concepts introduced:**
 
+
   * Nested loops
+
+
   * Bounds checking
+
+
   * Grid navigation
+
+
+  *Challenge:* Try counting neighbors for different positions (corners, edges,
+  center).
 
 showEditor: true
 editors:

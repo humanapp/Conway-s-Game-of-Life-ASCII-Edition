@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart5
+title: "(Bonus): Random Start"
+content: |+
+  **Goal:** Start with a random board.
+
+  **Concepts introduced:**
+
+  * Random module
+  * Seeding initial conditions
+
+  *Challenge:* Limit initial density (e.g., 30% chance of live cell).
+
+showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart5/conway.py

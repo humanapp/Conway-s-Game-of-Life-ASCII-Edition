@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart4
+title: Run the Simulation
+content: |+
+  **Goal:** Run multiple generations in a loop.
+
+  **Concepts introduced:**
+
+  * Animation with time delay
+
+  * Terminal clearing
+
+  * State mutation over time
+
+  *Challenge:* Try a different starting pattern like a glider.
+
+showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart4/conway.py

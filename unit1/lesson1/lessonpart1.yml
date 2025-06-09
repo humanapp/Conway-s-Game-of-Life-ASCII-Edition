@@ -7,9 +7,14 @@ content: |+
   **Concepts introduced:**
 
   * 2D lists
+
   * Loops
+
   * Functions
+
   * Ternary expressions
+
+  Change some cells to `1` manually to see a pattern.
 
 showEditor: true
 editors:
