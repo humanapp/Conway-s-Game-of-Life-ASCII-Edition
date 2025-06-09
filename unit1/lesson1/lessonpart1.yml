@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart1
+title: Representing the Grid
+content: |+
+  **Goal:** Define and display a 2D grid in the terminal.
+
+  **Concepts introduced:**
+
+  * 2D lists
+  * Loops
+  * Functions
+  * Ternary expressions
+
+showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart1/conway.py

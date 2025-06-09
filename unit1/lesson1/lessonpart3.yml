@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart3
+title: Applying Game of Life Rules
+content: |+
+  **Goal:** Write logic to evolve the grid.
+
+  **Concepts introduced:**
+
+  * If/else branching
+  * Game logic
+  * Cloning grids
+
+showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart3/conway.py

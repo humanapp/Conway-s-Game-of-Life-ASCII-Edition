@@ -12,12 +12,110 @@ contacts:
   - displayName: Eric Anderson
     pictureUrl: https://avatars.githubusercontent.com/u/2167515?v=4
     homePageUrl: https://github.com/humanapp
+files:
+  - path: course1/unit1/lesson1/lessonpart1/conway.py
+    content: "# Stage 1: Create and print a 2D grid\r
+
+      ROWS = 10\r
+
+      COLS = 10\r
+
+      \r
+
+      grid = [[0 for _ in range(COLS)] for _ in range(ROWS)]\r
+
+      \r
+
+      def print_grid(grid):\r
+
+      \    for row in grid:\r
+
+      \        print(\"\".join(\"⬛\" if cell else \"⬜\" for cell in row))\r
+
+      \r
+
+      print_grid(grid)"
+  - path: course1/unit1/lesson1/lessonpart2/conway.py
+    content: "# Stage 1: Create and print a 2D grid\r
+
+      ROWS = 10\r
+
+      COLS = 10\r
+
+      \r
+
+      grid = [[0 for _ in range(COLS)] for _ in range(ROWS)]\r
+
+      \r
+
+      def print_grid(grid):\r
+
+      \    for row in grid:\r
+
+      \        print(\"\".join(\"⬛\" if cell else \"⬜\" for cell in row))\r
+
+      \r
+
+      print_grid(grid)\r
+
+      \r
+
+      # Stage 2: Count live neighbors\r
+
+      def count_neighbors(grid, row, col):\r
+
+      \    total = 0\r
+
+      \    for dr in [-1, 0, 1]:\r
+
+      \        for dc in [-1, 0, 1]:\r
+
+      \            if dr == 0 and dc == 0:\r
+
+      \                continue  # skip self\r
+
+      \            r, c = row + dr, col + dc\r
+
+      \            if 0 <= r < ROWS and 0 <= c < COLS:\r
+
+      \                total += grid[r][c]\r
+
+      \    return total\r
+
+      \r
+
+      # Test\r
+
+      grid[4][4] = 1\r
+
+      grid[4][5] = 1\r
+
+      grid[5][4] = 1\r
+
+      print(count_neighbors(grid, 4, 4))  # Should print 2"
+  - path: course1/unit1/lesson1/lessonpart3/conway.py
+    content: "# Stage 3: Compute the next generation\r
+
+      def next_generation(grid):\r
+
+      \    new_grid = [[0 for _ in range(COLS)] for _ in range(ROWS)]\r
+
+      \    for r in range(ROWS):\r
+
+      \        for c in range(COLS):\r
+
+      \            neighbors = count_neighbors(grid, r, c)\r
+
+      \            if grid[r][c] == 1:\r
+
+      \                new_grid[r][c] = 1 if neighbors in [2, 3] else 0\r
+
+      \            else:\r
+
+      \                new_grid[r][c] = 1 if neighbors == 3 else 0\r
+
+      \    return new_grid\r
+
+      \r\n"
 units:
-  - id: unit1
-    title: Unit 1
-    lessons:
-      - id: lesson1
-        title: Lesson 1
-        lessonParts:
-          - id: lessonpart1
-            title: Page 1
+  - unit1/index.yml
