@@ -16,3 +16,24 @@ content: |
 showEditor: true
 editors:
   - course1/unit1/lesson1/lessonpart3/conway.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: Which concept is essential for writing logic to evolve the grid in
+          Conway's Game of Life?
+        options:
+          - id: "1"
+            value: If/else branching
+            explanation: If/else branching is used to implement the game logic for evolving
+              the grid.
+            isCorrect: true
+          - id: "2"
+            value: Looping through lists
+            explanation: While looping is important, the question specifically asks about
+              evolving logic, which relies on if/else branching.
+          - id: "3"
+            value: User input handling
+            explanation: User input handling is not directly related to evolving the grid in
+              Conway's Game of Life.
