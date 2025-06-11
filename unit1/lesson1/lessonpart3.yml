@@ -37,3 +37,22 @@ questionGroups:
             value: User input handling
             explanation: User input handling is not directly related to evolving the grid in
               Conway's Game of Life.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: choice
+        content: What is the purpose of cloning the grid in Conway's Game of Life?
+        options:
+          - id: "1"
+            value: To create a backup of the current state before applying changes.
+            explanation: Cloning the grid allows you to preserve the current state while you
+              apply changes to a new grid.
+            isCorrect: true
+          - id: "2"
+            value: To increase the size of the grid for more complex simulations.
+            explanation: Cloning does not change the size of the grid; it preserves the
+              current state.
+          - id: "3"
+            value: To speed up the simulation by using multiple grids.
+            explanation: Cloning is not used to speed up the simulation but to maintain the
+              current state.
