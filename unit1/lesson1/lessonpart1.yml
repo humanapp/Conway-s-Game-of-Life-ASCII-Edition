@@ -1,20 +1,62 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Representing the Grid
-content: |
-  **Goal:** Define and display a 2D grid in the terminal.
+content: >
+  In this lesson, we will explore the foundational concepts needed to implement
+  Conway's Game of Life using Python and ASCII graphics. This project will help
+  you understand how simple rules can lead to complex behaviors, a key concept
+  in computer science known as emergent behavior.
 
-  **Concepts covered:**
 
-  * 2D lists
+  ### Understanding the Grid
 
-  * Loops
 
-  * Functions
+  Conway's Game of Life is played on a two-dimensional grid of cells. Each cell
+  can be either alive or dead. The grid evolves over a series of time steps,
+  with the state of each cell at the next step determined by a set of simple
+  rules based on the states of its neighboring cells.
 
-  * Ternary expressions
 
-  Change some cells to `1` manually to see a pattern.
+  ### Setting Up the Environment
+
+
+  To get started, ensure you have Python installed on your computer. You will
+  also need a text editor or an integrated development environment (IDE) to
+  write and run your code. We will be using ASCII characters to represent the
+  cells, where a `#` symbol represents a live cell and a `.` symbol represents a
+  dead cell.
+
+
+  ### Initializing the Grid
+
+
+  1. **Create a 2D List**: Start by creating a 2D list in Python to represent
+  the grid. Each element in the list will be a cell that can be either alive or
+  dead.
+
+
+  2. **Define the Grid Size**: Decide on the size of your grid. For simplicity,
+  you might start with a 10x10 grid.
+
+
+  3. **Populate the Grid**: Initialize the grid with a pattern of your choice.
+  You can start with a simple pattern like a "glider" or a "block."
+
+
+  ### Visualizing the Grid
+
+
+  To visualize the grid, write a function that prints the grid to the terminal.
+  This function will iterate over each row and column, printing a `#` for live
+  cells and a `.` for dead cells.
+
+
+  ### Next Steps
+
+
+  In the following pages, we will learn how to update the cells based on their
+  neighbors and apply the rules of the Game of Life to simulate the evolution of
+  the grid. Stay tuned for more exciting developments!
 showEditor: true
 editors:
   - course1/unit1/lesson1/lessonpart1/conway.py
