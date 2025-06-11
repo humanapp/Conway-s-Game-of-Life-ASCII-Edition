@@ -22,3 +22,22 @@ content: >
 showEditor: true
 editors:
   - course1/unit1/lesson1/lessonpart2/conway.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: Which of the following is essential for correctly counting live
+          neighbors in a grid using nested loops?
+        options:
+          - id: "1"
+            value: Ensuring bounds checking to avoid accessing out-of-range indices.
+            explanation: Bounds checking prevents errors by ensuring indices are within the
+              grid limits.
+            isCorrect: true
+          - id: "2"
+            value: Using a single loop to iterate over the grid.
+            explanation: A single loop is insufficient for navigating a 2D grid.
+          - id: "3"
+            value: Ignoring cells on the grid edges.
+            explanation: Ignoring edge cells would lead to incorrect neighbor counts.
