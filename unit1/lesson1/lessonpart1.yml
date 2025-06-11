@@ -56,7 +56,7 @@ content: >
 
   In the following pages, we will learn how to update the cells based on their
   neighbors and apply the rules of the Game of Life to simulate the evolution of
-  the grid. Stay tuned for more exciting developments!
+  the grid. Let's go!
 showEditor: true
 editors:
   - course1/unit1/lesson1/lessonpart1/conway.py
