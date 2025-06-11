@@ -47,8 +47,8 @@ content: >
 
 
   To visualize the grid, write a function that prints the grid to the terminal.
-  This function will iterate over each row and column, printing a `#` for live
-  cells and a `.` for dead cells.
+  This function will iterate over each row and column, printing a ⬜ for live
+  cells and a ⬛ for dead cells.
 
 
   ### Next Steps
